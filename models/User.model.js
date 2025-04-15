@@ -17,6 +17,13 @@ const userSchema = new Schema(
       type: String,
       required: [true, "Name is required."],
     },
+    basket: {
+      recipes: [{ type: Schema.Types.ObjectId, ref: "Recipe" }],
+    },
+
+    favorites: {
+      recipes: [{ type: Schema.Types.ObjectId, ref: "Recipe" }],
+    },
   },
 
   {

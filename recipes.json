@@ -1,0 +1,628 @@
+[
+    {
+      "name": "Vegan Kung Pao Tofu",
+      "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+      "cooking_time": "40 minutes",
+      "ingredients": [
+        "Tofu",
+        "Bell peppers",
+        "Peanuts",
+        "Green onions",
+        "Garlic",
+        "Ginger",
+        "Soy sauce",
+        "Rice vinegar",
+        "Sugar",
+        "Cornstarch",
+        "Dried red chilies"
+      ],
+      "preparation": "Press and cube the tofu. Sauté bell peppers and set aside. Cook tofu until crispy, then add garlic, ginger, and dried chilies. Combine with a sauce made of soy sauce, rice vinegar, sugar, and cornstarch. Add the bell peppers back, toss with peanuts and green onions, and serve.",
+      "dietary_style": "Vegan",
+      "cuisine": "Chinese",
+      "popularity": 4
+    },
+    {
+      "name": "Briam: Traditional Greek Roasted Vegetables",
+      "image": "https://www.themediterraneandish.com/wp-content/uploads/2019/01/Briam-Traditional-Greek-Roasted-Vegetables-8.jpg",
+      "cooking_time": "1 hour 35 minutes",
+      "ingredients": [
+        "Potatoes",
+        "Zucchini",
+        "Red onions",
+        "Tomatoes",
+        "Garlic",
+        "Parsley",
+        "Extra virgin olive oil",
+        "Salt",
+        "Pepper"
+      ],
+      "preparation": "Slice all vegetables and layer them in a baking dish. Season with salt, pepper, and parsley. Drizzle generously with olive oil. Bake until vegetables are tender and edges are crispy. Serve warm or at room temperature.",
+      "dietary_style": "Vegetarian",
+      "cuisine": "Greek",
+      "popularity": 4
+    },
+    {
+      "name": "Chickpea Masala",
+      "image": "https://minimalistbaker.com/wp-content/uploads/2016/02/AMAZING-Chana-Masala-30-minutes-BIG-flavor-vegan-glutenfree-indian-dinner-recipe.jpg",
+      "cooking_time": "30 minutes",
+      "ingredients": [
+        "Chickpeas",
+        "Onion",
+        "Garlic",
+        "Ginger",
+        "Tomatoes",
+        "Coconut milk",
+        "Garam masala",
+        "Turmeric",
+        "Cumin",
+        "Coriander",
+        "Chili powder",
+        "Oil",
+        "Salt",
+        "Cilantro"
+      ],
+      "preparation": "Sauté onions, garlic, and ginger until soft. Add spices and cook until fragrant. Stir in tomatoes and cook until they break down. Add chickpeas and coconut milk, simmering until thickened. Season with salt and garnish with cilantro. Serve with rice or flatbread.",
+      "dietary_style": "Vegan",
+      "cuisine": "Indian",
+      "popularity": 5
+    },
+    {
+      "name": "Gluten-Free Dairy-Free Mexican Lasagna",
+      "image": "https://www.eatingwithfoodallergies.com/wp-content/uploads/2019/02/Mexican-Lasagna-1.jpg",
+      "cooking_time": "50 minutes",
+      "ingredients": [
+        "Corn tortillas",
+        "Ground turkey",
+        "Onion",
+        "Garlic",
+        "Black beans",
+        "Corn",
+        "Tomato sauce",
+        "Taco seasoning",
+        "Dairy-free cheese",
+        "Olive oil",
+        "Salt",
+        "Pepper"
+      ],
+      "preparation": "Preheat oven to 375°F (190°C). In a skillet, sauté onions and garlic in olive oil until translucent. Add ground turkey, cooking until browned. Stir in black beans, corn, tomato sauce, and taco seasoning; simmer for 5 minutes. In a baking dish, layer corn tortillas, meat mixture, and dairy-free cheese, repeating layers and ending with cheese on top. Cover with foil and bake for 30 minutes. Remove foil and bake for an additional 10 minutes until cheese is melted. Let it cool slightly before serving.",
+      "dietary_style": "Gluten-Free, Dairy-Free",
+      "cuisine": "Mexican",
+      "popularity": 4
+    },
+    {
+      "name": "Easy Vegan Greek Sheet Pan Dinner",
+      "image": "https://itdoesnttastelikechicken.com/wp-content/uploads/2023/01/vegan-greek-sheet-pan-dinner-4.jpg",
+      "cooking_time": "45 minutes",
+      "ingredients": [
+        "Tofu",
+        "Bell peppers",
+        "Zucchini",
+        "Red onion",
+        "Cherry tomatoes",
+        "Kalamata olives",
+        "Olive oil",
+        "Lemon juice",
+        "Garlic",
+        "Oregano",
+        "Salt",
+        "Pepper",
+        "Vegan feta cheese"
+      ],
+      "preparation": "Preheat oven to 400°F (200°C). Press and cube tofu. In a large bowl, combine tofu, chopped vegetables, and olives. In a separate bowl, whisk together olive oil, lemon juice, minced garlic, oregano, salt, and pepper. Pour dressing over tofu and vegetables, tossing to coat. Spread mixture on a baking sheet lined with parchment paper. Bake for 35-40 minutes until vegetables are tender and edges are caramelized. Remove from oven and sprinkle with crumbled vegan feta cheese. Serve warm over rice or with pita bread.",
+      "dietary_style": "Vegan",
+      "cuisine": "Greek",
+      "popularity": 4
+    },
+    {
+      "name": "Chinese Vegetable Stir-Fry",
+      "image": "https://www.onceuponachef.com/images/2013/02/Chinese-Vegetable-Stir-Fry-760x574.jpg",
+      "cooking_time": "30 minutes",
+      "ingredients": [
+        "Broccoli",
+        "Carrots",
+        "Snow peas",
+        "Bell peppers",
+        "Baby corn",
+        "Garlic",
+        "Ginger",
+        "Soy sauce",
+        "Sesame oil",
+        "Vegetable oil",
+        "Cornstarch",
+        "Water",
+        "Salt",
+        "Pepper"
+      ],
+      "preparation": "Prepare all vegetables by cutting them into bite-sized pieces. In a small bowl, mix soy sauce, sesame oil, cornstarch, and water to create a sauce. Heat vegetable oil in a large pan or wok over medium-high heat. Add minced garlic and ginger, sautéing until fragrant. Add carrots and broccoli, cooking for a few minutes. Add remaining vegetables, stirring continuously. Pour in the sauce, stirring to coat all vegetables evenly. Cook until the sauce thickens and vegetables are tender-crisp. Season with salt and pepper to taste. Serve hot over steamed rice or noodles.",
+      "dietary_style": "Vegetarian",
+      "cuisine": "Chinese",
+      "popularity": 3
+    },
+    {
+      "name": "30-Minute Indian Pulao Rice",
+      "image": "https://flexitariannutrition.com/wp-content/uploads/2013/10/Indian-Pulao-Rice.jpg",
+      "cooking_time": "30 minutes",
+      "ingredients": [
+        "Basmati rice",
+        "Onion",
+        "Garlic",
+        "Ginger",
+        "Cumin seeds",
+        "Cardamom pods",
+        "Cloves",
+        "Bay leaves",
+        "Vegetable broth",
+        "Salt",
+        "Cilantro"
+      ],
+      "preparation": "Rinse rice until the water runs clear. In a large pot, sauté onions, garlic, and ginger in oil until soft. Add cumin seeds, cardamom pods, cloves, and bay leaves, cooking until fragrant. Add rice and vegetable broth, bringing to a boil. Cover and simmer for 15-20 minutes until the rice is cooked. Garnish with cilantro and serve.",
+      "dietary_style": "Vegan",
+      "cuisine": "Indian",
+      "popularity": 4
+    },
+    {
+      "name": "Spaghetti Aglio e Olio",
+      "image": "https://www.acouplecooks.com/wp-content/uploads/2020/04/Spaghetti-Aglio-e-Olio-006.jpg",
+      "cooking_time": "20 minutes",
+      "ingredients": [
+        "Spaghetti",
+        "Olive oil",
+        "Garlic",
+        "Red pepper flakes",
+        "Parsley",
+        "Parmesan cheese (optional)",
+        "Salt",
+        "Pepper"
+      ],
+      "preparation": "Cook the spaghetti according to the package instructions. While the pasta cooks, heat olive oil in a pan over medium heat. Add garlic and red pepper flakes, cooking until fragrant. Add the cooked pasta to the pan, tossing to coat. Season with salt, pepper, and parsley. Serve with a sprinkle of Parmesan cheese, if desired.",
+      "dietary_style": "Vegetarian",
+      "cuisine": "Italian",
+      "popularity": 5
+    },
+    {
+      "name": "Lebanese Hummus",
+      "image": "https://www.mediterraneanliving.com/wp-content/uploads/2021/06/Classic-Hummus-Recipe.jpg",
+      "cooking_time": "15 minutes",
+      "ingredients": [
+        "Chickpeas",
+        "Tahini",
+        "Lemon juice",
+        "Garlic",
+        "Olive oil",
+        "Cumin",
+        "Salt",
+        "Paprika",
+        "Water"
+      ],
+      "preparation": "In a food processor, blend chickpeas, tahini, lemon juice, garlic, olive oil, cumin, and salt until smooth. Add water as needed to achieve desired consistency. Garnish with paprika and a drizzle of olive oil before serving.",
+      "dietary_style": "Vegan",
+      "cuisine": "Lebanese",
+      "popularity": 5
+    },
+    {
+      "name": "Spanish Paella",
+      "image": "https://www.oliviascuisine.com/wp-content/uploads/2021/06/paella-valenciana-2.jpg",
+      "cooking_time": "1 hour",
+      "ingredients": [
+        "Rice",
+        "Chicken",
+        "Shrimp",
+        "Chorizo",
+        "Bell peppers",
+        "Tomatoes",
+        "Garlic",
+        "Saffron",
+        "Vegetable broth",
+        "Olive oil",
+        "Salt",
+        "Lemon"
+      ],
+      "preparation": "In a large pan, heat olive oil and sauté chicken and chorizo until browned. Add garlic, peppers, and tomatoes, cooking until softened. Stir in rice, saffron, and vegetable broth, bringing to a simmer. Add shrimp and cook until the rice is tender and the liquid is absorbed. Garnish with lemon wedges and serve.",
+      "dietary_style": "Pescatarian",
+      "cuisine": "Spanish",
+      "popularity": 5
+    }
+    
+
+  
+
+
+
+  
+    {
+      "name": "Vegan Burrito Bowl",
+      "image": "https://www.veganricha.com/wp-content/uploads/2021/02/vegan-burrito-bowl.jpg",
+      "cooking_time": "25 minutes",
+      "ingredients": [
+        "Brown rice",
+        "Black beans",
+        "Corn",
+        "Avocado",
+        "Lettuce",
+        "Tomatoes",
+        "Cilantro",
+        "Lime",
+        "Taco seasoning",
+        "Salsa"
+      ],
+      "preparation": "Cook rice according to package instructions. Warm black beans and corn. Assemble the bowl with rice, black beans, corn, diced tomatoes, and lettuce. Add sliced avocado, cilantro, lime juice, and salsa. Sprinkle taco seasoning for extra flavor.",
+      "dietary_style": "Vegan",
+      "cuisine": "Mexican",
+      "popularity": 5
+    },
+    {
+      "name": "Greek Moussaka",
+      "image": "https://www.eatlikeagreek.com/wp-content/uploads/2018/09/Greek-Moussaka.jpg",
+      "cooking_time": "1 hour 15 minutes",
+      "ingredients": [
+        "Eggplant",
+        "Potatoes",
+        "Ground beef",
+        "Onion",
+        "Garlic",
+        "Tomatoes",
+        "Bechamel sauce",
+        "Olive oil",
+        "Cinnamon",
+        "Nutmeg",
+        "Salt",
+        "Pepper"
+      ],
+      "preparation": "Slice and fry eggplants and potatoes. In a pan, sauté onions, garlic, and ground beef until browned. Add tomatoes, cinnamon, nutmeg, salt, and pepper, cooking until thickened. Layer potatoes, eggplant, and beef mixture, topping with béchamel sauce. Bake until golden brown.",
+      "dietary_style": "Flexitarian",
+      "cuisine": "Greek",
+      "popularity": 4
+    },
+    {
+      "name": "Indian Vegetable Biryani",
+      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2019/04/veg-biryani-recipe-10.jpg",
+      "cooking_time": "45 minutes",
+      "ingredients": [
+        "Basmati rice",
+        "Mixed vegetables (carrots, peas, beans)",
+        "Onion",
+        "Garlic",
+        "Ginger",
+        "Spices (cardamom, cinnamon, cumin, cloves)",
+        "Vegetable broth",
+        "Tomatoes",
+        "Cilantro",
+        "Mint leaves",
+        "Saffron"
+      ],
+      "preparation": "Rinse rice and cook with mixed vegetables. In a separate pan, sauté onions, garlic, and ginger. Add spices, tomatoes, and vegetable broth. Layer rice with the cooked mixture, adding cilantro, mint, and saffron. Simmer until fully cooked.",
+      "dietary_style": "Vegan",
+      "cuisine": "Indian",
+      "popularity": 5
+    },
+    {
+      "name": "Zucchini Fritters",
+      "image": "https://www.inspiredtaste.net/wp-content/uploads/2021/04/Zucchini-Fritters-Recipe-1-1200.jpg",
+      "cooking_time": "20 minutes",
+      "ingredients": [
+        "Zucchini",
+        "Flour",
+        "Eggs",
+        "Cheese (optional)",
+        "Garlic",
+        "Dill",
+        "Salt",
+        "Pepper",
+        "Olive oil"
+      ],
+      "preparation": "Grate zucchini and squeeze out excess water. In a bowl, combine zucchini, flour, eggs, garlic, dill, and cheese. Form into patties and fry in olive oil until golden brown. Serve with a yogurt dip or sauce.",
+      "dietary_style": "Vegetarian",
+      "cuisine": "Greek",
+      "popularity": 4
+    },
+    {
+      "name": "Vegan Mushroom Risotto",
+      "image": "https://www.loveandlemons.com/wp-content/uploads/2020/11/Vegan-Risotto-1.jpg",
+      "cooking_time": "45 minutes",
+      "ingredients": [
+        "Arborio rice",
+        "Mushrooms",
+        "Vegetable broth",
+        "White wine",
+        "Garlic",
+        "Onion",
+        "Olive oil",
+        "Nutritional yeast",
+        "Lemon juice",
+        "Thyme"
+      ],
+      "preparation": "Sauté garlic, onions, and mushrooms in olive oil. Add rice and cook for a couple of minutes. Gradually add vegetable broth and white wine, stirring constantly until the rice is creamy. Finish with nutritional yeast, lemon juice, and thyme.",
+      "dietary_style": "Vegan",
+      "cuisine": "Italian",
+      "popularity": 4
+    },
+    {
+      "name": "Lebanese Falafel",
+      "image": "https://www.feastingathome.com/wp-content/uploads/2021/04/Falafel-Square-1-800x800.jpg",
+      "cooking_time": "45 minutes",
+      "ingredients": [
+        "Chickpeas",
+        "Garlic",
+        "Onion",
+        "Parsley",
+        "Cilantro",
+        "Cumin",
+        "Coriander",
+        "Baking soda",
+        "Olive oil"
+      ],
+      "preparation": "Soak chickpeas overnight, then blend with garlic, onion, parsley, cilantro, and spices. Add baking soda and form into balls. Fry in hot olive oil until golden and crispy. Serve with tahini sauce or in pita.",
+      "dietary_style": "Vegan",
+      "cuisine": "Lebanese",
+      "popularity": 5
+    },
+    {
+      "name": "Pasta Primavera",
+      "image": "https://www.foodiecrush.com/wp-content/uploads/2021/05/Pasta-Primavera-Recipe-2.jpg",
+      "cooking_time": "25 minutes",
+      "ingredients": [
+        "Pasta",
+        "Broccoli",
+        "Bell peppers",
+        "Carrots",
+        "Zucchini",
+        "Garlic",
+        "Olive oil",
+        "Parmesan cheese",
+        "Basil",
+        "Lemon"
+      ],
+      "preparation": "Cook pasta according to the package instructions. Sauté garlic and vegetables in olive oil until tender. Toss the cooked pasta with the sautéed vegetables. Add Parmesan cheese, lemon juice, and basil.",
+      "dietary_style": "Vegetarian",
+      "cuisine": "Italian",
+      "popularity": 5
+    },
+    {
+      "name": "Pescatarian Fish Tacos",
+      "image": "https://www.cookinglight.com/thmb/az7AxlS-Lts7pa95AYhzklPjS0o=/1600x900/filters:no_upscale():max_bytes(150000):strip_icc()/fish-tacos-28988fcb31f94ff89a3893c7886c8ba0.jpg",
+      "cooking_time": "20 minutes",
+      "ingredients": [
+        "Fish fillets (tilapia or cod)",
+        "Corn tortillas",
+        "Cabbage",
+        "Avocado",
+        "Cilantro",
+        "Lime",
+        "Taco seasoning",
+        "Sour cream"
+      ],
+      "preparation": "Season fish fillets with taco seasoning and cook in a hot pan until flaky. Warm tortillas and assemble tacos with fish, shredded cabbage, avocado, cilantro, and a squeeze of lime. Top with sour cream or salsa.",
+      "dietary_style": "Pescatarian",
+      "cuisine": "Mexican",
+      "popularity": 5
+    },
+    {
+      "name": "Pasta Carbonara",
+      "image": "https://www.simplyrecipes.com/thmb/OQ_vitf-13nO2h6r27p4QYqzG9Y=/1500x1000/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Pasta-Carbonara-Horiz-a-18db267a26984817b9563a3c7ff16a2b.jpg",
+      "cooking_time": "20 minutes",
+      "ingredients": [
+        "Pasta",
+        "Eggs",
+        "Pancetta",
+        "Parmesan cheese",
+        "Garlic",
+        "Black pepper",
+        "Olive oil"
+      ],
+      "preparation": "Cook pasta and set aside. In a skillet, sauté pancetta until crispy. In a separate bowl, whisk eggs and Parmesan cheese. Toss hot pasta with pancetta and egg mixture, adding some pasta water to create a creamy sauce. Season with black pepper.",
+      "dietary_style": "Flexitarian",
+      "cuisine": "Italian",
+      "popularity": 5
+    },
+    {
+      "name": "Spanish Gazpacho",
+      "image": "https://www.southernliving.com/thmb/eOq4DytBC7Lks8b41Zj8NaxC7g8=/1500x1000/filters:no_upscale():max_bytes(150000):strip_icc()/gazpacho-023-4e0d57b17b5e4237995453f02b39a100.jpg",
+      "cooking_time": "15 minutes",
+      "ingredients": [
+        "Tomatoes",
+        "Cucumber",
+        "Bell pepper",
+        "Onion",
+        "Garlic",
+        "Olive oil",
+        "Red wine vinegar",
+        "Bread",
+        "Salt",
+        "Pepper"
+      ],
+      "preparation": "Blend tomatoes, cucumber, bell pepper, onion, and garlic until smooth. Add olive oil, vinegar, and salt, blending again. Chill in the fridge for a few hours. Serve cold with crusty bread and a drizzle of olive oil.",
+      "dietary_style": "Vegan",
+      "cuisine": "Spanish",
+      "popularity":  2
+    }
+
+    {
+        "name": "Vegan Chocolate Cake",
+        "image": "https://www.loveandlemons.com/wp-content/uploads/2020/10/vegan-chocolate-cake.jpg",
+        "cooking_time": "45 minutes",
+        "ingredients": [
+          "Flour",
+          "Cocoa powder",
+          "Baking soda",
+          "Sugar",
+          "Non-dairy milk",
+          "Vegetable oil",
+          "Apple cider vinegar",
+          "Vanilla extract"
+        ],
+        "preparation": "Preheat oven to 350°F (175°C). In a bowl, combine dry ingredients. In another bowl, mix wet ingredients. Combine both and mix until smooth. Pour into a greased cake pan and bake for 30-35 minutes. Let cool before frosting with vegan chocolate ganache.",
+        "dietary_style": "Vegan",
+        "cuisine": "Dessert",
+        "popularity": 5
+      },
+      {
+        "name": "Vegan Pancakes",
+        "image": "https://www.loveandlemons.com/wp-content/uploads/2021/06/vegan-pancakes-2.jpg",
+        "cooking_time": "15 minutes",
+        "ingredients": [
+          "Flour",
+          "Baking powder",
+          "Sugar",
+          "Non-dairy milk",
+          "Vanilla extract",
+          "Salt",
+          "Olive oil"
+        ],
+        "preparation": "In a bowl, mix dry ingredients. In another bowl, whisk together wet ingredients. Pour the wet mixture into the dry and stir to combine. Heat a pan and cook the pancakes on both sides until golden. Serve with maple syrup.",
+        "dietary_style": "Vegan",
+        "cuisine": "American",
+        "popularity": 4
+      },
+      {
+        "name": "Chickpea Salad Sandwich",
+        "image": "https://www.feastingathome.com/wp-content/uploads/2020/08/Chickpea-Salad-Sandwich-4.jpg",
+        "cooking_time": "10 minutes",
+        "ingredients": [
+          "Chickpeas",
+          "Mayo (vegan or regular)",
+          "Dijon mustard",
+          "Celery",
+          "Red onion",
+          "Lemon juice",
+          "Garlic powder",
+          "Salt",
+          "Pepper",
+          "Bread"
+        ],
+        "preparation": "Mash chickpeas in a bowl and combine with mayo, mustard, diced celery, red onion, lemon juice, garlic powder, salt, and pepper. Spread onto slices of bread and serve as a sandwich.",
+        "dietary_style": "Vegan",
+        "cuisine": "American",
+        "popularity": 4
+      },
+      {
+        "name": "Lentil Soup",
+        "image": "https://www.101cookbooks.com/wp-content/uploads/2018/10/lentil-soup-2.jpg",
+        "cooking_time": "1 hour",
+        "ingredients": [
+          "Lentils",
+          "Carrots",
+          "Celery",
+          "Onion",
+          "Garlic",
+          "Canned tomatoes",
+          "Vegetable broth",
+          "Bay leaves",
+          "Thyme",
+          "Olive oil",
+          "Salt",
+          "Pepper"
+        ],
+        "preparation": "In a pot, sauté onion, garlic, carrots, and celery in olive oil until softened. Add lentils, tomatoes, vegetable broth, and herbs. Simmer for 40-50 minutes until lentils are tender. Season with salt and pepper to taste.",
+        "dietary_style": "Vegan",
+        "cuisine": "Mediterranean",
+        "popularity": 4
+      },
+      {
+        "name": "Mango Sorbet",
+        "image": "https://www.sugarhero.com/wp-content/uploads/2020/06/mango-sorbet-1.jpg",
+        "cooking_time": "15 minutes + freezing",
+        "ingredients": [
+          "Mango",
+          "Sugar",
+          "Lime juice",
+          "Water"
+        ],
+        "preparation": "Blend mango, sugar, lime juice, and water until smooth. Pour into a shallow container and freeze. Every 30 minutes, stir with a fork until sorbet is fully frozen and creamy.",
+        "dietary_style": "Vegan",
+        "cuisine": "Dessert",
+        "popularity": 5
+      },
+      {
+        "name": "Pesto Pasta",
+        "image": "https://www.loveandlemons.com/wp-content/uploads/2020/06/pesto-pasta.jpg",
+        "cooking_time": "25 minutes",
+        "ingredients": [
+          "Pasta",
+          "Basil pesto",
+          "Parmesan cheese (optional)",
+          "Pine nuts",
+          "Olive oil"
+        ],
+        "preparation": "Cook pasta according to the package instructions. Toss with pesto and olive oil. Top with toasted pine nuts and Parmesan cheese (if using). Serve warm.",
+        "dietary_style": "Vegetarian",
+        "cuisine": "Italian",
+        "popularity": 5
+      },
+      {
+        "name": "Apple Crumble",
+        "image": "https://www.spendwithpennies.com/wp-content/uploads/2020/09/Apple-Crumble-Recipe.jpg",
+        "cooking_time": "1 hour",
+        "ingredients": [
+          "Apples",
+          "Sugar",
+          "Flour",
+          "Oats",
+          "Butter (or vegan butter)",
+          "Cinnamon",
+          "Lemon juice"
+        ],
+        "preparation": "Preheat oven to 350°F (175°C). Toss apples with sugar, cinnamon, and lemon juice, and place in a baking dish. In a separate bowl, mix flour, oats, sugar, and butter to form a crumble. Sprinkle over apples and bake for 40-45 minutes until golden.",
+        "dietary_style": "Vegan (if using vegan butter)",
+        "cuisine": "Dessert",
+        "popularity": 5
+      },
+      {
+        "name": "Vegetable Stir-Fry",
+        "image": "https://www.bonappetit.com/wp-content/uploads/2017/02/bonappetit-stir-fry.jpg",
+        "cooking_time": "20 minutes",
+        "ingredients": [
+          "Broccoli",
+          "Carrots",
+          "Bell peppers",
+          "Onions",
+          "Soy sauce",
+          "Garlic",
+          "Ginger",
+          "Sesame oil",
+          "Rice",
+          "Chili flakes"
+        ],
+        "preparation": "Stir-fry vegetables in sesame oil with garlic and ginger until tender. Add soy sauce and chili flakes, and cook for another 2 minutes. Serve over steamed rice.",
+        "dietary_style": "Vegan",
+        "cuisine": "Chinese",
+        "popularity": 4
+      },
+      {
+        "name": "Banana Bread",
+        "image": "https://www.sallysbakingaddiction.com/wp-content/uploads/2020/08/healthy-banana-bread-2.jpg",
+        "cooking_time": "1 hour 10 minutes",
+        "ingredients": [
+          "Bananas",
+          "Flour",
+          "Baking soda",
+          "Sugar",
+          "Non-dairy milk",
+          "Olive oil",
+          "Vanilla extract",
+          "Cinnamon"
+        ],
+        "preparation": "Preheat oven to 350°F (175°C). Mash bananas and mix with sugar, non-dairy milk, olive oil, and vanilla. Stir in flour, baking soda, and cinnamon. Pour into a loaf pan and bake for 60-70 minutes. Let cool before slicing.",
+        "dietary_style": "Vegan",
+        "cuisine": "American",
+        "popularity": 5
+      },
+      {
+        "name": "Vegan Chocolate Chip Cookies",
+        "image": "https://www.minimalistbaker.com/wp-content/uploads/2017/04/Vegan-Chocolate-Chip-Cookies.jpg",
+        "cooking_time": "25 minutes",
+        "ingredients": [
+          "Flour",
+          "Baking soda",
+          "Sugar",
+          "Vegan butter",
+          "Non-dairy milk",
+          "Vanilla extract",
+          "Chocolate chips"
+        ],
+        "preparation": "Preheat oven to 350°F (175°C). Mix dry ingredients in a bowl and wet ingredients in another. Combine both and stir in chocolate chips. Drop spoonfuls onto a baking sheet and bake for 10-12 minutes.",
+        "dietary_style": "Vegan",
+        "cuisine": "Dessert",
+        "popularity": 5
+      }
+
+    ]
