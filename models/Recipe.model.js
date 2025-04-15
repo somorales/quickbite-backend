@@ -25,8 +25,8 @@ const recipeSchema = new Schema(
     },
     dietary_style: {
       type: String,
-      enum: ["Vegan", "Vegetarian", "Gluten-Free", "Keto", "Paleo", "None"],
-      default: "None",
+      enum: ["Vegan", "Vegetarian", "Gluten-Free", "Keto", "Paleo"],
+      required: [true, "Dietary style must be defined."],
     },
     cuisine: {
       type: String,
@@ -38,9 +38,8 @@ const recipeSchema = new Schema(
         "Lebanese",
         "Mexican",
         "Spanish",
-        "None",
       ],
-      default: "None",
+      required: [true, "Cuisine must be defined."],
     },
     popularity: {
       type: Number,

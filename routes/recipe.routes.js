@@ -18,12 +18,12 @@ router.get("/", async (req, res, next) => {
       filter.cooking_time = { $lte: parseInt(maxTime) };
     }
     // Dietary style (si no viene vacío)
-    if (dietary_style && dietary_style !== "All") {
+    if (dietary_style) {
       filter.dietary_style = dietary_style;
     }
 
     // Cuisine (si no viene vacío)
-    if (cuisine && cuisine !== "All") {
+    if (cuisine) {
       filter.cuisine = cuisine;
     }
 
