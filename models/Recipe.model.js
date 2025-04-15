@@ -11,9 +11,9 @@ const recipeSchema = new Schema(
       type: String,
       required: [true, "Image URL is required."],
     },
-    cooking_time: {
+    cooking_time_minutes: {
       type: Number,
-      required: [true, "Cooking time is required."],
+      required: [true, "Cooking time (in minutes) is required."],
     },
     ingredients: {
       type: [String],

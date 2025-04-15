@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const Recipe = require("../models/Recipe.model");
 const { verifyToken } = require("../middlewares/auth.middlewares");
+const User = require("../models/User.model");
 
 //ver todas las recetas
 

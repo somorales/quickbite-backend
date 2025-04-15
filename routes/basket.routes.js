@@ -8,7 +8,7 @@ router.post("/", verifyToken, async (req, res) => {
     const user = await User.findById(req.payload._id);
 
     if (req.body.recipeId) {
-      user.basket.recipes.push(req.body.recipeId);
+      user.basket.push(req.body.recipeId);
     }
 
     const updateUser = await User.findByIdAndUpdate(req.payload._id, user, {
@@ -26,10 +26,10 @@ router.delete("/recipes/:recipeId", verifyToken, async (req, res, next) => {
   try {
     const user = await User.findById(req.payload._id);
 
-    const basketFiltered = user.favorites.recipes.filter(
+    const basketFiltered = user.basket.filter(
       (eachRecipeId) => eachRecipeId.toString() !== req.params.recipeId
     );
-    user.basket.recipes = basketFiltered;
+    user.basket = basketFiltered;
 
     const updateUser = await User.findByIdAndUpdate(req.payload._id, user, {
       new: true,
