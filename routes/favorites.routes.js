@@ -22,7 +22,7 @@ router.post("/", verifyToken, async (req, res) => {
   }
 });
 
-router.delete("/products/:productId", verifyToken, async (req, res, next) => {
+router.delete("/recipes/:recipeId", verifyToken, async (req, res, next) => {
   try {
     const user = await User.findById(req.payload._id);
 
