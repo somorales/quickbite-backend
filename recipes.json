@@ -2,7 +2,7 @@
   {
     "name": "Vegan Kung Pao Tofu",
     "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
-    "cooking_time": "40 minutes",
+    "cooking_time_minutes": 40,
     "ingredients": [
       "Tofu",
       "Bell peppers",
@@ -23,8 +23,8 @@
   },
   {
     "name": "Briam: Traditional Greek Roasted Vegetables",
-    "image": "https://www.themediterraneandish.com/wp-content/uploads/2019/05/Briam-Recipe-7.jpg",
-    "cooking_time": "1 hour 35 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 95,
     "ingredients": [
       "Potatoes",
       "Zucchini",
@@ -43,8 +43,8 @@
   },
   {
     "name": "Chickpea Masala",
-    "image": "https://minimalistbaker.com/wp-content/uploads/2016/02/AMAZING-Chana-Masala-30-minutes-BIG-flavor-vegan-glutenfree-indian-dinner-recipe.jpg",
-    "cooking_time": "30 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 30,
     "ingredients": [
       "Chickpeas",
       "Onion",
@@ -68,8 +68,8 @@
   },
   {
     "name": "Gluten-Free Dairy-Free Mexican Lasagna",
-    "image": "https://www.eatingwithfoodallergies.com/wp-content/uploads/2019/02/Mexican-Lasagna-1.jpg",
-    "cooking_time": "50 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 50,
     "ingredients": [
       "Corn tortillas",
       "Ground turkey",
@@ -91,8 +91,8 @@
   },
   {
     "name": "Easy Vegan Greek Sheet Pan Dinner",
-    "image": "https://itdoesnttastelikechicken.com/wp-content/uploads/2023/01/vegan-greek-sheet-pan-dinner-4.jpg",
-    "cooking_time": "45 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 45,
     "ingredients": [
       "Tofu",
       "Bell peppers",
@@ -115,8 +115,8 @@
   },
   {
     "name": "Chinese Vegetable Stir-Fry",
-    "image": "https://www.onceuponachef.com/images/2013/02/Chinese-Vegetable-Stir-Fry-760x574.jpg",
-    "cooking_time": "30 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 30,
     "ingredients": [
       "Broccoli",
       "Carrots",
@@ -140,8 +140,8 @@
   },
   {
     "name": "30-Minute Indian Pulao Rice",
-    "image": "https://flexitariannutrition.com/wp-content/uploads/2013/10/Indian-Pulao-Rice.jpg",
-    "cooking_time": "30 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 30,
     "ingredients": [
       "Basmati rice",
       "Onion",
@@ -162,8 +162,8 @@
   },
   {
     "name": "Spaghetti Aglio e Olio",
-    "image": "https://www.acouplecooks.com/wp-content/uploads/2020/04/Spaghetti-Aglio-e-Olio-006.jpg",
-    "cooking_time": "20 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 20,
     "ingredients": [
       "Spaghetti",
       "Olive oil",
@@ -181,8 +181,8 @@
   },
   {
     "name": "Lebanese Hummus",
-    "image": "https://www.mediterraneanliving.com/wp-content/uploads/2021/06/Classic-Hummus-Recipe.jpg",
-    "cooking_time": "15 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 15,
     "ingredients": [
       "Chickpeas",
       "Tahini",
@@ -201,8 +201,8 @@
   },
   {
     "name": "Spanish Paella",
-    "image": "https://www.oliviascuisine.com/wp-content/uploads/2021/06/paella-valenciana-2.jpg",
-    "cooking_time": "1 hour",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 60,
     "ingredients": [
       "Rice",
       "Chicken",
@@ -225,8 +225,8 @@
 
   {
     "name": "Vegan Burrito Bowl",
-    "image": "https://www.veganricha.com/wp-content/uploads/2021/02/vegan-burrito-bowl.jpg",
-    "cooking_time": "25 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 25,
     "ingredients": [
       "Brown rice",
       "Black beans",
@@ -246,8 +246,8 @@
   },
   {
     "name": "Greek Moussaka",
-    "image": "https://www.eatlikeagreek.com/wp-content/uploads/2018/09/Greek-Moussaka.jpg",
-    "cooking_time": "1 hour 15 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 75,
     "ingredients": [
       "Eggplant",
       "Potatoes",
@@ -269,8 +269,8 @@
   },
   {
     "name": "Indian Vegetable Biryani",
-    "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2019/04/veg-biryani-recipe-10.jpg",
-    "cooking_time": "45 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 45,
     "ingredients": [
       "Basmati rice",
       "Mixed vegetables (carrots, peas, beans)",
@@ -291,8 +291,8 @@
   },
   {
     "name": "Zucchini Fritters",
-    "image": "https://www.inspiredtaste.net/wp-content/uploads/2021/04/Zucchini-Fritters-Recipe-1-1200.jpg",
-    "cooking_time": "20 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 20,
     "ingredients": [
       "Zucchini",
       "Flour",
@@ -311,8 +311,8 @@
   },
   {
     "name": "Vegan Mushroom Risotto",
-    "image": "https://www.loveandlemons.com/wp-content/uploads/2020/11/Vegan-Risotto-1.jpg",
-    "cooking_time": "45 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 45,
     "ingredients": [
       "Arborio rice",
       "Mushrooms",
@@ -332,8 +332,8 @@
   },
   {
     "name": "Lebanese Falafel",
-    "image": "https://www.feastingathome.com/wp-content/uploads/2021/04/Falafel-Square-1-800x800.jpg",
-    "cooking_time": "45 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 45,
     "ingredients": [
       "Chickpeas",
       "Garlic",
@@ -352,8 +352,8 @@
   },
   {
     "name": "Pasta Primavera",
-    "image": "https://www.foodiecrush.com/wp-content/uploads/2021/05/Pasta-Primavera-Recipe-2.jpg",
-    "cooking_time": "25 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 25,
     "ingredients": [
       "Pasta",
       "Broccoli",
@@ -373,8 +373,8 @@
   },
   {
     "name": "Pescatarian Fish Tacos",
-    "image": "https://www.cookinglight.com/thmb/az7AxlS-Lts7pa95AYhzklPjS0o=/1600x900/filters:no_upscale():max_bytes(150000):strip_icc()/fish-tacos-28988fcb31f94ff89a3893c7886c8ba0.jpg",
-    "cooking_time": "20 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 20,
     "ingredients": [
       "Fish fillets (tilapia or cod)",
       "Corn tortillas",
@@ -392,8 +392,8 @@
   },
   {
     "name": "Pasta Carbonara",
-    "image": "https://www.simplyrecipes.com/thmb/OQ_vitf-13nO2h6r27p4QYqzG9Y=/1500x1000/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Pasta-Carbonara-Horiz-a-18db267a26984817b9563a3c7ff16a2b.jpg",
-    "cooking_time": "20 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 20,
     "ingredients": [
       "Pasta",
       "Eggs",
@@ -410,8 +410,8 @@
   },
   {
     "name": "Spanish Gazpacho",
-    "image": "https://www.southernliving.com/thmb/eOq4DytBC7Lks8b41Zj8NaxC7g8=/1500x1000/filters:no_upscale():max_bytes(150000):strip_icc()/gazpacho-023-4e0d57b17b5e4237995453f02b39a100.jpg",
-    "cooking_time": "15 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 15,
     "ingredients": [
       "Tomatoes",
       "Cucumber",
@@ -432,8 +432,8 @@
 
   {
     "name": "Vegan Chocolate Cake",
-    "image": "https://www.loveandlemons.com/wp-content/uploads/2020/10/vegan-chocolate-cake.jpg",
-    "cooking_time": "45 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 45,
     "ingredients": [
       "Flour",
       "Cocoa powder",
@@ -451,8 +451,8 @@
   },
   {
     "name": "Vegan Pancakes",
-    "image": "https://www.loveandlemons.com/wp-content/uploads/2021/06/vegan-pancakes-2.jpg",
-    "cooking_time": "15 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": "15 minutes",
     "ingredients": [
       "Flour",
       "Baking powder",
@@ -469,8 +469,8 @@
   },
   {
     "name": "Chickpea Salad Sandwich",
-    "image": "https://www.feastingathome.com/wp-content/uploads/2020/08/Chickpea-Salad-Sandwich-4.jpg",
-    "cooking_time": "10 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": "10 minutes",
     "ingredients": [
       "Chickpeas",
       "Mayo (vegan or regular)",
@@ -490,8 +490,8 @@
   },
   {
     "name": "Lentil Soup",
-    "image": "https://www.101cookbooks.com/wp-content/uploads/2018/10/lentil-soup-2.jpg",
-    "cooking_time": "1 hour",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": "1 hour",
     "ingredients": [
       "Lentils",
       "Carrots",
@@ -513,8 +513,8 @@
   },
   {
     "name": "Mango Sorbet",
-    "image": "https://www.sugarhero.com/wp-content/uploads/2020/06/mango-sorbet-1.jpg",
-    "cooking_time": "15 minutes + freezing",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": "15 minutes + freezing",
     "ingredients": ["Mango", "Sugar", "Lime juice", "Water"],
     "preparation": "Blend mango, sugar, lime juice, and water until smooth. Pour into a shallow container and freeze. Every 30 minutes, stir with a fork until sorbet is fully frozen and creamy.",
     "dietary_style": "Vegan",
@@ -523,8 +523,8 @@
   },
   {
     "name": "Pesto Pasta",
-    "image": "https://www.loveandlemons.com/wp-content/uploads/2020/06/pesto-pasta.jpg",
-    "cooking_time": "25 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 25,
     "ingredients": [
       "Pasta",
       "Basil pesto",
@@ -539,8 +539,8 @@
   },
   {
     "name": "Apple Crumble",
-    "image": "https://www.spendwithpennies.com/wp-content/uploads/2020/09/Apple-Crumble-Recipe.jpg",
-    "cooking_time": "1 hour",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 60,
     "ingredients": [
       "Apples",
       "Sugar",
@@ -557,8 +557,8 @@
   },
   {
     "name": "Vegetable Stir-Fry",
-    "image": "https://www.bonappetit.com/wp-content/uploads/2017/02/bonappetit-stir-fry.jpg",
-    "cooking_time": "20 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 20,
     "ingredients": [
       "Broccoli",
       "Carrots",
@@ -578,8 +578,8 @@
   },
   {
     "name": "Banana Bread",
-    "image": "https://www.sallysbakingaddiction.com/wp-content/uploads/2020/08/healthy-banana-bread-2.jpg",
-    "cooking_time": "1 hour 10 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 70,
     "ingredients": [
       "Bananas",
       "Flour",
@@ -597,8 +597,8 @@
   },
   {
     "name": "Vegan Chocolate Chip Cookies",
-    "image": "https://www.minimalistbaker.com/wp-content/uploads/2017/04/Vegan-Chocolate-Chip-Cookies.jpg",
-    "cooking_time": "25 minutes",
+    "image": "https://frommybowl.com/wp-content/uploads/2022/03/Vegan_Kung_Pao_Tofu_FromMyBowl-12.jpg",
+    "cooking_time_minutes": 25,
     "ingredients": [
       "Flour",
       "Baking soda",
