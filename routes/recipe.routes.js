@@ -8,7 +8,7 @@ const User = require("../models/User.model");
 
 router.get("/", async (req, res, next) => {
   try {
-    let { maxTime, dietary_style, cuisine, search } = req.query;
+    let { maxTime, dietary_style, cuisine, name, sort_by } = req.query;
 
     let filter = {};
 
@@ -28,11 +28,15 @@ router.get("/", async (req, res, next) => {
     }
 
     // Búsqueda por nombre (case-insensitive)
-    if (search) {
-      filter.name = { $regex: search, $options: "i" };
+    if (name) {
+      filter.name = { $regex: name, $options: "i" };
     }
-
-    const allRecipe = await Recipe.find(filter);
+    let allRecipe = [];
+    if (sort_by && sort_by === "popularity") {
+      allRecipe = await Recipe.find(filter).sort({ popularity: -1 });
+    } else {
+      allRecipe = await Recipe.find(filter);
+    }
 
     res.status(200).json(allRecipe);
   } catch (error) {
