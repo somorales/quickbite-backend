@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Recipe = require("../models/Recipe.model");
+const { Recipe } = require("../models/Recipe.model");
 const { verifyToken } = require("../middlewares/auth.middlewares");
 const User = require("../models/User.model");
 
@@ -8,14 +8,14 @@ const User = require("../models/User.model");
 
 router.get("/", async (req, res, next) => {
   try {
-    let { maxTime, dietary_style, cuisine, name, sort_by } = req.query;
+    let { cooking_time, dietary_style, cuisine, name, sort_by } = req.query;
 
     let filter = {};
 
     // Cooking time: máximo tiempo de cocción
 
-    if (!isNaN(parseInt(maxTime))) {
-      filter.cooking_time = { $lte: parseInt(maxTime) };
+    if (!isNaN(parseInt(cooking_time))) {
+      filter.cooking_time_minutes = { $lte: parseInt(cooking_time) };
     }
     // Dietary style (si no viene vacío)
     if (dietary_style) {

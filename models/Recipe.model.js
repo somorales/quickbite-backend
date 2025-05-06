@@ -1,5 +1,17 @@
 const { Schema, model } = require("mongoose");
 
+const CUISINES = [
+  "Chinese",
+  "Greek",
+  "Indian",
+  "Italian",
+  "Lebanese",
+  "Mexican",
+  "Spanish",
+];
+
+const DIETARY_STYLES = ["Vegan", "Vegetarian", "Gluten-Free", "Keto", "Paleo"];
+
 const recipeSchema = new Schema(
   {
     name: {
@@ -25,20 +37,12 @@ const recipeSchema = new Schema(
     },
     dietary_style: {
       type: String,
-      enum: ["Vegan", "Vegetarian", "Gluten-Free", "Keto", "Paleo"],
+      enum: DIETARY_STYLES,
       required: [true, "Dietary style must be defined."],
     },
     cuisine: {
       type: String,
-      enum: [
-        "Chinese",
-        "Greek",
-        "Indiam",
-        "Italiam",
-        "Lebanese",
-        "Mexican",
-        "Spanish",
-      ],
+      enum: CUISINES,
       required: [true, "Cuisine must be defined."],
     },
     popularity: {
@@ -55,4 +59,4 @@ const recipeSchema = new Schema(
 
 const Recipe = model("Recipe", recipeSchema);
 
-module.exports = Recipe;
+module.exports = { Recipe, CUISINES, DIETARY_STYLES };

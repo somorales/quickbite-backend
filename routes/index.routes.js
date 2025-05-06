@@ -16,4 +16,12 @@ router.use("/favorites", favoritesRouter);
 const basketRouter = require("./basket.routes.js");
 router.use("/basket", basketRouter);
 
+// ruta cuisines
+const cuisinesRouter = require("./cuisines.routes.js");
+router.use("/cuisines", cuisinesRouter);
+
+// ruta dietary_style
+const dietaryStyleRouter = require("./dietary_style.routes.js");
+router.use("/dietary-styles", dietaryStyleRouter);
+
 module.exports = router;
