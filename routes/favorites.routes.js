@@ -3,7 +3,22 @@ const router = express.Router();
 const User = require("../models/User.model");
 const { verifyToken } = require("../middlewares/auth.middlewares");
 
-router.post("/", verifyToken, async (req, res) => {
+router.get("/", verifyToken, async (req, res, next) => {
+  try {
+    const user = await User.findById(req.payload._id).populate("favorites");
+
+    if (user === undefined) {
+      res.status(404).send("Not found");
+      return;
+    }
+    res.status(200).json(user.favorites);
+  } catch (error) {
+    console.log(error);
+    next(error);
+  }
+});
+
+router.post("/", verifyToken, async (req, res, next) => {
   try {
     const user = await User.findById(req.payload._id);
 
