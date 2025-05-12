@@ -22,13 +22,31 @@ router.post("/", verifyToken, async (req, res, next) => {
   try {
     const user = await User.findById(req.payload._id);
 
-    if (req.body.recipeId) {
-      user.favorites.push(req.body.recipeId);
+    const recipeId = req.body.recipeId;
+
+    if (!recipeId) {
+      return res.status(400).json({ message: "recipeId es requerido." });
     }
 
-    const updateUser = await User.findByIdAndUpdate(req.payload._id, user, {
-      new: true,
-    });
+    // Verificar si ya está en favoritos
+    const alreadyInFavorites = user.favorites.some(
+      (favId) => favId.toString() === recipeId
+    );
+
+    if (alreadyInFavorites) {
+      return res
+        .status(400)
+        .json({ message: "La receta ya está en tus favoritos." });
+    }
+
+    // Agregar si no está
+    user.favorites.push(recipeId);
+
+    const updateUser = await User.findByIdAndUpdate(
+      req.payload._id,
+      { favorites: user.favorites },
+      { new: true }
+    );
 
     res.status(200).json(updateUser.favorites);
   } catch (error) {
@@ -41,14 +59,17 @@ router.delete("/recipes/:recipeId", verifyToken, async (req, res, next) => {
   try {
     const user = await User.findById(req.payload._id);
 
-    const favoritesFiltered = user.favorites.filter(
-      (eachRecipeId) => eachRecipeId.toString() !== req.params.recipeId
-    );
-    user.favorites = favoritesFiltered;
+    const recipeIdToRemove = req.params.recipeId;
 
-    const updateUser = await User.findByIdAndUpdate(req.payload._id, user, {
-      new: true,
-    });
+    const favoritesFiltered = user.favorites.filter(
+      (eachRecipeId) => eachRecipeId.toString() !== recipeIdToRemove
+    );
+
+    await User.findByIdAndUpdate(
+      req.payload._id,
+      { favorites: favoritesFiltered },
+      { new: true }
+    );
 
     res.status(204).send();
   } catch (error) {
