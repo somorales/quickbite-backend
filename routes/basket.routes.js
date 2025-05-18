@@ -35,7 +35,7 @@ router.post("/", verifyToken, async (req, res, next) => {
 
     if (alreadyInBasket) {
       return res
-        .status(400)
+        .status(200)
         .json({ message: "La receta ya está en tus favoritos." });
     }
 

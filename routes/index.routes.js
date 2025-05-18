@@ -16,6 +16,10 @@ router.use("/favorites", favoritesRouter);
 const basketRouter = require("./basket.routes.js");
 router.use("/basket", basketRouter);
 
+// ruta ingredients
+const ingredientsRouter = require("./ingredients.routes.js");
+router.use("/ingredients", ingredientsRouter);
+
 // ruta cuisines
 const cuisinesRouter = require("./cuisines.routes.js");
 router.use("/cuisines", cuisinesRouter);
