@@ -28,7 +28,6 @@ router.post("/", verifyToken, async (req, res, next) => {
       return res.status(400).json({ message: "recipeId es requerido." });
     }
 
-    // Verificar si ya está en favoritos
     const alreadyInBasket = user.basket.some(
       (basketId) => basketId.toString() === recipeId
     );

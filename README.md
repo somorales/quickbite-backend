@@ -1,19 +1,19 @@
-# Lexi
+# Quickbite
 
-This is the backend project for the [Lexi app]().
+This is the backend project for the [Quickbite app]().
 
 ## Description
 
-Lexi is an app designed to optimize your language learning in an intuitive and personalized way. It works as your own interactive dictionary.
+Quickbite is the app that turns your favorite recipes into fast, organized shopping lists—making cooking easier from the very first step.
 
-#### [Client Repo here](https://github.com/somorales/words-frontend)
+#### [Client Repo here](https://github.com/somorales/quickbite-frontend)
 
-#### [Server Repo here](https://github.com/somorales/words-backend)
+#### [Server Repo here](https://github.com/somorales/quickbite-backend)
 
 ## Technologies, Libraries & APIs used
 
 - **Frontend:** React, HTML5, CSS3, JavaScript
-- **Backend:** Node.js
+- **Backend:** Node.js, OpenAI API
 - **Styling:** Tailwind
 - **HTTP client:** Axios
 - **Deployment:** Netlify (Frontend), Render & Mongo Atlas (Backend)
@@ -25,82 +25,125 @@ Lexi is an app designed to optimize your language learning in an intuitive and p
 User model
 
 ```javascript
-{
-    email: {
-      type: String,
-      required: [true, 'Email is required.'],
-      unique: true,
-      lowercase: true,
-      trim: true
-    },
-    password: {
-      type: String,
-      required: [true, 'Password is required.']
-    },
-    name: {
-      type: String,
-      required: [true, 'Name is required.']
-    },
-}
+({
+  email: {
+    type: String,
+    required: [true, "Email is required."],
+    unique: true,
+    lowercase: true,
+    trim: true,
+  },
+  password: {
+    type: String,
+    required: [true, "Password is required."],
+  },
+  name: {
+    type: String,
+    required: [true, "Name is required."],
+  },
+  basket: [{ type: Schema.Types.ObjectId, ref: "Recipe" }],
+  favorites: [{ type: Schema.Types.ObjectId, ref: "Recipe" }],
+});
 ```
 
 Word model
 
 ```javascript
-{
-     {
-    word: {
-      type: String,
-      required: [true, 'word is required.'],
-
-    },
-    meaning: {
-      type: String,
-      required: [true, 'Meaning is required.']
-    },
-    translation: {
-      type: String,
-      required: [true, 'Translation is required.']
-    },
-    sentences: {
-      type: Array,
-      required: [true, 'Sentences is required.']
-    },
-    language: {
-      type: String,
-      required: [true, 'Lenguage is required.']
-    },
-   user_id: {
-      type: ObjectId,
-      required: [true, 'user_id is required.']
-    }
-     }
-}
+({
+  name: {
+    type: String,
+    required: [true, "Recipe name is required."],
+    trim: true,
+  },
+  image: {
+    type: String,
+    required: [true, "Image URL is required."],
+  },
+  cooking_time_minutes: {
+    type: Number,
+    required: [true, "Cooking time (in minutes) is required."],
+  },
+  ingredients: {
+    type: [String],
+    required: [true, "Ingredients are required."],
+  },
+  preparation: {
+    type: String,
+    required: [true, "Preparation steps are required."],
+  },
+  dietary_style: {
+    type: String,
+    enum: DIETARY_STYLES,
+    required: [true, "Dietary style must be defined."],
+  },
+  cuisine: {
+    type: String,
+    enum: CUISINES,
+    required: [true, "Cuisine must be defined."],
+  },
+  popularity: {
+    type: Number,
+    min: 0,
+    max: 5,
+    default: 0,
+  },
+}),
+  {
+    timestamps: true,
+  };
 ```
 
 # API Endpoints (backend routes)
 
-| HTTP Method | URL                        | Request Body                                               | Success Status | Error Status | Description                                                                             |
-| ----------- | -------------------------- | ---------------------------------------------------------- | -------------- | ------------ | --------------------------------------------------------------------------------------- |
-| **POST**    | `/words`                   | `{ word, pronunciation, meaning, translation, sentences }` | 201            | 400          | Creates a new word with its pronunciation, meaning, translation, and example sentences. |
-| **GET**     | `/words`                   | n/a                                                        | 200            | 400          | Returns an array containing all words created by the user.                              |
-| **GET**     | `/words/search`            | `{ query }`                                                | 200            | 400          | Searches for words using the given query term.                                          |
-| **GET**     | `/words/sort`              | `{ sort_by }`                                              | 200            | 400          | Sorts words by alphabetical order, oldest, or newest.                                   |
-| **GET**     | `/words/:id`               | n/a                                                        | 200            | 404          | Returns details of a specific word, including its meaning and translation.              |
-| **GET**     | `/words/:id/pronunciation` | n/a                                                        | 200            | 404          | Returns the pronunciation of a word.                                                    |
-| **PUT**     | `/words/:id`               | `{ word, pronunciation, meaning, translation, sentences }` | 200            | 400          | Updates the information of a specific word.                                             |
-| **DELETE**  | `/words/:id`               | n/a                                                        | 200            | 404          | Deletes a word by its ID.                                                               |
+# 📘 API Documentation
+
+| HTTP Method | URL                            | Request Body                                           | Success Status | Error Status | Description                                                |
+| ----------- | ------------------------------ | ------------------------------------------------------ | -------------- | ------------ | ---------------------------------------------------------- |
+| **GET**     | `/recipes`                     | `?cooking_time, dietary_style, cuisine, name, sort_by` | 200            | 400          | Returns all recipes with optional filtering and sorting.   |
+| **GET**     | `/recipes/:id`                 | N/A                                                    | 200            | 404          | Returns the details of a specific recipe by its ID.        |
+| **GET**     | `/favorites`                   | N/A                                                    | 200            | 404          | Returns the authenticated user's list of favorite recipes. |
+| **POST**    | `/favorites`                   | `{ "recipeId": "string" }`                             | 200            | 400          | Adds a recipe to the user's favorites list.                |
+| **DELETE**  | `/favorites/recipes/:recipeId` | N/A                                                    | 204            | 404          | Removes a recipe from the user's favorites by recipe ID.   |
+| **GET**     | `/basket`                      | N/A                                                    | 200            | 404          | Returns the authenticated user's recipe basket.            |
+| **POST**    | `/basket`                      | `{ "recipeId": "string" }`                             | 200            | 400          | Adds a recipe to the user's basket.                        |
+| **DELETE**  | `/basket/recipes/:recipeId`    | N/A                                                    | 204            | 404          | Removes a recipe from the user's basket by recipe ID.      |
+
+---
+
+## 🔐 Notes
+
+##
+
+This route (`POST /ingredients`) uses OpenAI's `gpt-4o-mini` model to generate a consolidated grocery list from a list of meals.
+
+### How it works
+
+- **Input**: An array of meals, each with:
+  - `name`: the meal's name
+  - `quantity`: how many times it will be eaten
+  - `ingredients`: an array of ingredient names
+- **Processing**:
+  - The server formats a natural language prompt from the meals.
+  - Sends the prompt to OpenAI with a strict JSON schema.
+  - The model returns a structured list that:
+    - Multiplies ingredients by frequency
+    - Combines duplicates
+- **Output Example**:
+  ```json
+  {
+    "elements": [
+      { "ingredient": "tomato", "quantity": 5 },
+      { "ingredient": "rice", "quantity": 2 }
+    ]
+  }
+  ```
 
 ## Links
 
 ### Project
 
-[Repository Link Client](https://github.com/somorales/words-frontend)
+[Repository Link Client](https://github.com/somorales/quickbite-frontend)
 
-[Repository Link Server](https://github.com/somorales/words-backend)
+[Repository Link Server](https://github.com/somorales/quickbite-backend)
 
 [Deploy Link]()
-
-### Model Planning
-
-[Model Planning Link](https://www.figma.com/design/WQVDchfxFC2seCF5ZRXZKc/Lexi?node-id=0-1&t=pXIPXMF0FTKgnq4G-1)
