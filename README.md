@@ -1,6 +1,6 @@
 # Quickbite
 
-This is the backend project for the [Quickbite app]().
+This is the backend project for the [Quickbite app](https://qbite.netlify.app/).
 
 ## Description
 
@@ -146,4 +146,4 @@ This route (`POST /ingredients`) uses OpenAI's `gpt-4o-mini` model to generate a
 
 [Repository Link Server](https://github.com/somorales/quickbite-backend)
 
-[Deploy Link]()
+[Deploy Link](https://qbite.netlify.app/)
